@@ -1,4 +1,4 @@
-package com.dellife;
+package com.dellife.event;
 
 import lombok.*;
 

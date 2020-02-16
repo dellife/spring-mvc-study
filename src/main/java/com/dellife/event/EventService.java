@@ -1,4 +1,4 @@
-package com.dellife;
+package com.dellife.event;
 
 import org.springframework.stereotype.Service;
 

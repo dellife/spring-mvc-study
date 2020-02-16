@@ -1,4 +1,4 @@
-package com.dellife;
+package com.dellife.event;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequiredArgsConstructor
 public class EventController {
 
-    private final  EventService eventService;
+    private final EventService eventService;
 
     @GetMapping("/events")
     public String events(Model model) {
