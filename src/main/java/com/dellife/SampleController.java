@@ -11,4 +11,5 @@ public class SampleController {
     public Person hello(@PathVariable("name") Person person) {
         return person;
     }
+
 }

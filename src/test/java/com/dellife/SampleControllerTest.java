@@ -1,6 +1,5 @@
 package com.dellife;
 
-import com.dellife.event.EventController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,4 +26,5 @@ public class SampleControllerTest {
                 .andExpect(content().string("hello"));
 
     }
+
 }
